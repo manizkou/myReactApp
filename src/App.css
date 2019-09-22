@@ -31,3 +31,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*my custom class*/
+
+.helloReact{
+  color: silver;
+  background-color: chocolate;
+  padding: 20px;
+  width: 100%;
+}
+
+.parentComponent{
+  color: white;
+  padding: 20px;
+  width: 100%;
+  background: radial-gradient(circle at top left,#34ace0,#33d9b2,#227093);
+}
+
+.childComponent{
+  color: white;
+  padding: 20px;
+  width: 100%;
+  background: linear-gradient(to right,#34ace0,#33d9b2,#227093);
+}
+
