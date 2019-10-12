@@ -10,6 +10,8 @@ import TypesOfFoods from'./TypesOfFoods.js';
 import Calender from'./Calender.js';
 import ShoppingCart from'./ShoppingCart.js';
 import ResetPassword from'./ResetPassword.js';
+import StatefulComponent from'./StatefulComponent.js';
+
 
 
 
@@ -29,6 +31,7 @@ class ParentComponent extends React.Component{
 	render(){
 		return(
 			<div>
+				<StatefulComponent />
 				<ResetPassword />
 				<Calender/>
 				<ShoppingCart />
